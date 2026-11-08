@@ -19,14 +19,7 @@ body {
   body {
     max-width: 1080px;
     min-width: 960px;
-    min-width: 960px;
     margin: 0 auto 0 auto;
-  }
-  #menu-sp {
-    display: none;
-  }
-  #nav-sp {
-    display: none;
   }
 }
 
@@ -63,6 +56,13 @@ header {
 }
 
 /* スマートフォン用 */
+@media screen and (max-width:767px) {
+  #nav-pc {
+  display: none;
+}
+
+  
+
 #nav-pc {
   display: none;
 }
@@ -123,7 +123,7 @@ header {
   color: #ffffff;
 }
 
-#nav-sp.menu {
+#nav-sp .menu {
   text-decoration: none;
   display: block;
   margin: 0 20px 0 20px;
@@ -132,4 +132,6 @@ header {
   background-image: url(images/arrow.png);
   background-repeat: no-repeat;
   background-position: right top;
+}
+
 }
