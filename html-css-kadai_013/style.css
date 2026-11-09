@@ -21,6 +21,13 @@ body {
     min-width: 960px;
     margin: 0 auto 0 auto;
   }
+
+  /* スマホ用要素を非表示 */
+  #menu-sp,
+  #nav-sp {
+    display: none;
+  }
+
 }
 
 /* ヘッダー */
@@ -58,13 +65,7 @@ header {
 /* スマートフォン用 */
 @media screen and (max-width:767px) {
   #nav-pc {
-  display: none;
-}
-
-  
-
-#nav-pc {
-  display: none;
+    display: none;
 }
 
 /* ハンバーガーメニュー */
